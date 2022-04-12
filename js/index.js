@@ -4,7 +4,8 @@ function assignEvents() {
     btn = document.querySelector("button");
     btn.addEventListener("click", draw);
 
+
 }
 function draw() {
-    btn.insertBefore("asd");
+    btn.insertAdjacentElement("afterend", "asdasddsa")
 }
