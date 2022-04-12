@@ -5,5 +5,5 @@ function assignEvents() {
     btn.addEventListener("click", draw);
 }
 function draw() {
-    btn.insertAdjacentText("afterend", "asdasddsa")
+    btn.insertAdjacentText("afterend", "asdasddsa");
 }
