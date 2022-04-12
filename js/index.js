@@ -8,5 +8,5 @@ function assignEvents() {
 function draw() {
     count++;
     let clicks = count===1? "vez.":"veces.";
-    document.querySelector("div").innerText = `<p>Hola, Alberto... estoy probando lo que va a ser mi portfolio amateur de mierda...<p> <h1>Tío, has pulsado ya ${count} ${clicks}</h1>`;
+    document.querySelector("div").innerHTML = `<p>Hola, Alberto... estoy probando lo que va a ser mi portfolio amateur de mierda...<p> <h1>Tío, has pulsado ya ${count} ${clicks}</h1>`;
 }
