@@ -3,9 +3,7 @@ document.addEventListener("DOMContentLoaded", assignEvents);
 function assignEvents() {
     btn = document.querySelector("button");
     btn.addEventListener("click", draw);
-
-
 }
 function draw() {
-    btn.insertAdjacentElement("afterend", "asdasddsa")
+    btn.insertAdjacentText("afterend", "asdasddsa")
 }
